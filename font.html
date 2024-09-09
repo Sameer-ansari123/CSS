@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       
+       /* div{
+            width: 100px;
+            height: 100px;
+            background:red;
+            transition:width 2s,height 2s,transform 2s;
+        }
+        div.hover{
+            width: 300px;
+            height: 300px;
+            transform: rotate(180deg);
+        } */
+        .button{
+            background-color: aqua;
+            border: none;
+            color: red;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration:none;
+            display: inline;
+            font-size: 13px ;
+             margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer; 
+
+        } 
+        .button1{
+            background-color: white;
+            color: black;
+            border: 2px solid green;
+        }
+            .button1:hover{
+                background-color: green;
+                color: white;
+            }
+            .button2{
+                box-shadow: 0 8px 16px 0 rgba (0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .button3:hover {
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+            }
+            .pagination{
+                display: inline-block;
+            }
+            .pagination a :active{
+                color: black;
+                float: left;
+                padding: 8px 16px;
+                text-decoration: none;  
+            }
+            .pagination{
+                display: inline-block;
+                 
+            }
+            .flex-container{
+                display: flex;
+                background-color: dodgerblue;
+                
+            }
+            .flex-container > div{
+                background-color: #f1f1f1;
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
+
+            }
+            video{
+                width: 100%;
+                height: auto;
+            }
+            
+            
+           
+           </style>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>sameer ansari</h1>
+   <p>hovever the div element below, the transition effect:</p>
+   <div >mouse over me </div>
+   <button class="button button1">Green</button>
+   <button class="button button2">normal button </button>
+   <button class="button button3">shadow</button>
+   <h2>simple padigation</h2>
+   <div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">7</a>
+    <a href="#">8</a>
+    <a href="#">9</a>
+    <a href="#">&raquo;</a>
+    <p>next/previous button: </p>
+    <div class="pagination">
+        <a href="#"> > </a>
+        <a href="#"> < </a>
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <video width="400" controls>
+                <source src="https://youtu.be/ESnrn1kAD4E" >
+                <source src="https://youtu.be/ESnrn1kAD4E" >
+                <div class="myclass"></div>
+                <div id="id"></div>
+            </video>
+
+        </div>
+
+    </div>
+   </div>
+</body>
+</html>

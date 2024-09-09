@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba, (0,0,0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+        .droupdown:hover .droupdown-content {
+            display: block;
+        }
+         ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            overflow: hidden;
+            background-color: #333;
+            position:fixed;
+            top: 0;
+            width: 100%;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px, 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        .ative{
+             background-color:#04aa6d ;
+        } 
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <ul>
+        <li><a class="active" href="#home">  home </a></li>
+        <li><a href="#news"> news</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#about">about</a></li> 
+    </ul>
+        <div style="padding: 20px;margin-top:30px;background-color: #1abc9c;height: 1500px;">
+        <h1>heading 1</h1>
+        <h2>heading 2 </h2>
+        <h2>heading 3</h2>
+        <p>aa</p>
+        <p>bb</p>
+        <p>cc</p>
+        <p>dd</p>
+        <p>ee</p>
+        <p>dd</p></div>
+        <div class="droupdown"></div>
+        <span>mouse over me </span>
+        <div class="droupdown-content"></div>
+        <p>sameer ansari</p>
+
+
+</body>
+</html>
